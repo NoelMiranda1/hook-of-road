@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+  .scre {
+    width: "500px";
+  }
+  .cont {
+    flex-direction: column;
+  }
+}
