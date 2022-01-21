@@ -1,3 +1,5 @@
+/** @format */
+
 .form-content {
   display: flex;
   flex-direction: row;
@@ -165,4 +167,18 @@
     transform: perspective(140px) rotateY(180deg);
     opacity: 0;
   }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
