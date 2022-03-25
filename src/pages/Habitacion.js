@@ -125,49 +125,49 @@ export default function Register() {
         dataIndex: "entrada",
         key: "0",
         fixed: "left",
-        width: 200,
+        width: 130,
         ...grid.current.getColumnSearch("entrada")
       },
       {
         title: "Salida",
         dataIndex: "salida",
         key: "1",
-        width: 200,
+        width: 130,
         ...grid.current.getColumnSearch("salida")
       },
       {
         title: "Placa",
         dataIndex: "placa",
         key: "2",
-        width: 200,
+        width: 130,
         ...grid.current.getColumnSearch("placa")
       },
       {
         title: "Cuarto",
         dataIndex: "habitacion",
         key: "3",
-        width: 200,
+        width: 130,
         ...grid.current.getColumnSearch("habitacion")
       },
       {
         title: "Cedula",
         dataIndex: "id",
         key: "4",
-        width: 200,
+        width: 130,
         ...grid.current.getColumnSearch("id")
       },
       {
         title: "Aire Acondicionado",
         dataIndex: "aire",
         key: "5",
-        width: 200,
+        width: 130,
         ...grid.current.getColumnSearch("aire")
       },
       {
         title: "Precio",
         dataIndex: "price",
         key: "6",
-        width: 200,
+        width: 130,
         ...grid.current.getColumnSearch("price")
       }
     ]);

@@ -31,7 +31,7 @@ const Dashborad = ({ children }) => {
             <Link to='/'>Home</Link>
           </Menu.Item>
           <Menu.Item className='out' key='2' icon={<FileAddOutlined />}>
-            <Link to='/newregister'>Habitaciones</Link>
+            <Link to='/newregister'>Input register</Link>
           </Menu.Item>
           <Menu.Item
             className='out'
